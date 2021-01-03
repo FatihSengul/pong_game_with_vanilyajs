@@ -106,9 +106,9 @@ function goal(pos) {
     }, 1000);
 
     if (pos == "left")
-        rscore.innerHTML = Number(rscore.innerHTML) + 1;
+        rscore.innerHTML = Number(rscore.innerHTML) + 5;
     else
-        lscore.innerHTML = Number(lscore.innerHTML) + 1;
+        lscore.innerHTML = Number(lscore.innerHTML) + 5;
 
 
     speedx *= -1;
